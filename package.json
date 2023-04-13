@@ -1,0 +1,24 @@
+{
+  "name": "evolutionproject",
+  "version": "1.0.0",
+  "description": "Simulation of Evolution.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiegfriedSchmidt/EvolutionProject.git"
+  },
+  "keywords": [
+    "Simulation",
+    "Evolution",
+    "Creatures"
+  ],
+  "author": "Matvei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SiegfriedSchmidt/EvolutionProject/issues"
+  },
+  "homepage": "https://github.com/SiegfriedSchmidt/EvolutionProject#readme"
+}
