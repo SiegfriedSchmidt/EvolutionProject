@@ -41,7 +41,7 @@ export default class Game {
     init() {
         for (let i = 0; i < 1024; i++) {
             const color = `rgb(${i / 4},${(Math.sin(i) + 1) * 128},${(1024 - i) / 4})`
-            this.cubes.push(new Cube(this, 0.01, 20, i / 1000 * Math.PI / 2, 50, color))
+            this.cubes.push(new Cube(this, 0.01, 20, i / 1000 * Math.PI / 2 + 1.5 * Math.PI, 50, color))
         }
     }
 
